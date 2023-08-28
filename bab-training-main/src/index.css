@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&family=Lato:wght@400;700&display=swap");
+
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+.ant-btn {
+  height: 40px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.ant-card-head-title {
+  color: #337ab7;
+}
+.ant-descriptions-title {
+  color: #337ab7 !important;
+}
+
+.ant-descriptions-title h3 {
+  color: #337ab7 !important;
+}
+.ant-notification {
+  right: 40% !important;
+  top: 24px;
+  bottom: auto;
+}
+.g_loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-form-vertical .ant-form-item-label {
+  white-space: nowrap;
+  text-align: start;
+  padding: 0;
+}
